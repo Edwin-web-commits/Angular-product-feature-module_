@@ -1,0 +1,512 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Hp",
+      "categoryId": 2,
+      "description": "Windows 10 Pro 64,8th Generation Intel® Core™ i5 processor,8 GB memory; 256 GB SSD storage, 14 diagonal Full HD display",
+      "productImg": "http://localhost:4200/assets/laptopsImages/hp3.jpg",
+      "price": 130,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "color": "blue"
+    },
+    {
+      "id": 4,
+      "name": "Hp",
+      "categoryId": 2,
+      "description": "Windows 10 Pro 64,8th Generation Intel® Core™ i3 processor,8 GB memory; 256 GB SSD storage, 14 diagonal Full HD display",
+      "productImg": "http://localhost:4200/assets/laptopsImages/Hp1.jpg",
+      "price": 110,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "color": "grey"
+    },
+    {
+      "id": 5,
+      "name": "Hp",
+      "categoryId": 2,
+      "description": "Windows 10 Pro 32,8th Generation Intel® Core™ i3 processor,8 GB memory; 256 GB SSD storage, 14 diagonal Full HD display",
+      "productImg": "http://localhost:4200/assets/laptopsImages/hp2.png",
+      "price": 100,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "color": "grey"
+    },
+    {
+      "id": 6,
+      "name": "Acer",
+      "categoryId": 2,
+      "description": "Chrome OS ,Intel® Celeron® N4000 processor Dual-core 1.10 GHz ,Intel® UHD Graphics 600 shared memory ,11.6 HD (1366 x 768) 16:9 IPS, 4 GB, LPDDR4 32 GB Flash Memory",
+      "productImg": "http://localhost:4200/assets/laptopsImages/acer-1.png",
+      "price": "250",
+      "isAvailable": "true",
+      "rating": "2",
+      "reviews": "4 reviews",
+      "color": "grey"
+    },
+    {
+      "id": 7,
+      "name": "Acer",
+      "categoryId": 2,
+      "description": "Chrome OS ,Intel® Celeron® N4000 processor Dual-core 1.10 GHz ,Intel® UHD Graphics 600 shared memory ,11.6 HD (1366 x 768) 16:9 IPS, 8 GB, LPDDR4 32 GB Flash Memory",
+      "productImg": "http://localhost:4200/assets/laptopsImages/acer-2.jpeg",
+      "price": 125,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "color": "grey"
+    },
+    {
+      "id": 8,
+      "name": "Toshiba",
+      "categoryId": 2,
+      "description": "Dynabook Toshiba Tecra A50-F 15.6 ,FHD Business Laptop Computer/ Intel Quad-Core i7-8565U up to 4.6GHz/ 8GB DDR4 RAM/ 256GB SSD/ DVDRW/ AC WiFi/ Bluetooth/ Windows 10 Professional",
+      "productImg": "http://localhost:4200/assets/laptopsImages/toshiba-.jpg",
+      "price": 115,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "color": "grey"
+    },
+    {
+      "id": 9,
+      "name": "Toshiba",
+      "categoryId": 2,
+      "description": "Dynabook Toshiba Tecra A50-F 15.6 ,FHD Business Laptop Computer/ Intel Quad-Core i7-8565U up to 4.6GHz/ 8GB DDR4 RAM/ 256GB SSD/ DVDRW/ AC WiFi/ Bluetooth/ Windows 10 Professional",
+      "productImg": "http://localhost:4200/assets/laptopsImages/toshiba-2.jpg",
+      "price": 110,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "color": "grey"
+    },
+    {
+      "id": 11,
+      "name": "Samsung",
+      "categoryId": 1,
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-2.png",
+      "price": 160,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 12,
+      "name": "LG",
+      "categoryId": 1,
+      "description": "Z9G | MASTER Series | LED | 8K | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-3.jpg",
+      "price": "300",
+      "isAvailable": "true",
+      "rating": "3",
+      "reviews": "4 reviews",
+      "color": "grey"
+    },
+    {
+      "id": 13,
+      "name": "Samsung",
+      "categoryId": 1,
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-4.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 14,
+      "name": "Skyworth",
+      "categoryId": 1,
+      "description": "X800H | LED | 3K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-5.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 14,
+      "name": "Telefunken",
+      "categoryId": 1,
+      "description": "X800H | LED | 3K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/imageee.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 14,
+      "name": "Samsung",
+      "categoryId": 1,
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-6.jpg",
+      "price": 300,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 15,
+      "name": "LG",
+      "categoryId": 1,
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-7.jpg",
+      "price": 320,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 16,
+      "name": "Samsung",
+      "categoryId": 1,
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-8.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 17,
+      "name": "Samsung A30",
+      "categoryId": 3,
+      "description": "Samsung Galaxy A30S w/On-Screen Fingerprint (64GB, 4GB) 6.4, Triple Camera, Dual SIM GSM Unlocked A307G/DS - US + Global 4G LTE International",
+      "productImg": "http://localhost:4200/assets/phones/a30.jpg",
+      "price": "150",
+      "isAvailable": "true",
+      "rating": "5",
+      "reviews": "5 reviews",
+      "color": "grey"
+    },
+    {
+      "id": 18,
+      "name": "Samsung A32",
+      "categoryId": 3,
+      "description": "Samsung Galaxy A32 (64GB, 4GB) 6.4, single Camera, Dual SIM GSM Unlocked A327G/DS - US + Global 4G LTE International",
+      "productImg": "http://localhost:4200/assets/phones/a32.jpg",
+      "price": "75",
+      "isAvailable": "true",
+      "rating": "1",
+      "reviews": "1 review",
+      "color": "light brown"
+    },
+    {
+      "id": 19,
+      "name": "Samsung A71",
+      "categoryId": 3,
+      "description": "Samsung Galaxy A71S w/On-Screen Fingerprint (128GB, 8GB) 6.4, Triple Camera, Dual SIM GSM Unlocked A71G/DS - US + Global 4G LTE International",
+      "productImg": "http://localhost:4200/assets/phones/galaxy-a71.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 20,
+      "name": "Samsung S10",
+      "categoryId": 3,
+      "description": "Samsung Galaxy S10 Factory Unlocked Android Cell Phone | US Version | 128GB of Storage | Fingerprint ID and Facial Recognition | Long-Lasting Battery | Prism Black (SM-G973U1ZKAX)",
+      "productImg": "http://localhost:4200/assets/phones/s10.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 21,
+      "name": "Samsung S10",
+      "categoryId": 3,
+      "description": "Samsung Galaxy S10 Factory Unlocked Android Cell Phone | US Version | 128GB of Storage | Fingerprint ID and Facial Recognition | Long-Lasting Battery | Prism Black (SM-G973U1ZKAX)",
+      "productImg": "http://localhost:4200/assets/phones/s100.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 23,
+      "name": "Samsung S20",
+      "categoryId": 3,
+      "description": "Samsung Galaxy S10 Factory Unlocked Android Cell Phone | US Version | 128GB of Storage | Fingerprint ID and Facial Recognition | Long-Lasting Battery | Prism Black (SM-G973U1ZKAX)",
+      "productImg": "http://localhost:4200/assets/phones/s20.png",
+      "price": "300",
+      "isAvailable": "true",
+      "rating": "5",
+      "reviews": "5 reviews",
+      "color": "grey"
+    },
+    {
+      "id": 24,
+      "name": "Samsung A51",
+      "categoryId": 3,
+      "description": "Samsung Galaxy A51 Factory Unlocked Android Cell Phone | US Version | 128GB of Storage | Fingerprint ID and Facial Recognition | Long-Lasting Battery | Prism Black (SM-G973U1ZKAX)",
+      "productImg": "http://localhost:4200/assets/phones/samsung-a51.jpg",
+      "price": "190",
+      "isAvailable": "true",
+      "rating": "5",
+      "reviews": "4 reviews",
+      "color": "grey"
+    },
+    {
+      "id": 26,
+      "name": "CA speakers",
+      "categoryId": 4,
+      "description": "CA-Z1 Hi-Res Near Field Powered Speaker System Signature Series",
+      "productImg": "http://localhost:4200/assets/speakersImg/sp-3.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 27,
+      "name": "GBL",
+      "categoryId": 4,
+      "description": "JBL Professional 305P MkII Next-Generation 5-Inch 2-Way Powered Studio Monitor",
+      "productImg": "http://localhost:4200/assets/speakersImg/sp-4.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 28,
+      "name": "Logitech",
+      "categoryId": 4,
+      "description": "Logitech Z623 400 Watt Home Speaker System, 2.1 Speaker System - Black",
+      "productImg": "http://localhost:4200/assets/speakersImg/sp-5.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 29,
+      "name": "CREATIVE",
+      "categoryId": 4,
+      "description": "Creative Labs 51MF1610AA002 GigaWorks T20 Series II 3.0 Multimedia Speaker System with BasXPort Technology",
+      "productImg": "http://localhost:4200/assets/speakersImg/sp-6.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 30,
+      "name": "BLASTER",
+      "categoryId": 4,
+      "description": "Blaster Labs 51MF1610AA002 GigaWorks T20 Series II 3.0 Multimedia Speaker System with BasXPort Technology",
+      "productImg": "http://localhost:4200/assets/speakersImg/sp-7.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 31,
+      "name": "CREATIVE",
+      "categoryId": 4,
+      "description": "Creative Labs 51MF1610AA002 GigaWorks T20 Series II 3.0 Multimedia Speaker System with BasXPort Technology",
+      "productImg": "http://localhost:4200/assets/speakersImg/sp-8.jpg",
+      "price": 119,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 32,
+      "name": "MIXCDER",
+      "categoryId": 5,
+      "description": "MIXCDER Noise Cancelling Headphones WHCH710N: Wireless Bluetooth Over the Ear Headset with Mic for Phone-Call, Black",
+      "productImg": "http://localhost:4200/assets/headphones/hd-1.jpg",
+      "price": 80,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 34,
+      "name": "JABRA",
+      "categoryId": 5,
+      "description": "JABRA  Headphones, Wired Headphones for Kids Teens Children with Volume Limit, Foldable Adjustable On-Ear Headphones for School, Travel, Compatible with Cellphones, Tablets, PC",
+      "productImg": "http://localhost:4200/assets/headphones/hd-3.png",
+      "price": 75,
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 130,
+      "color": "grey"
+    },
+    {
+      "id": 80,
+      "name": "Lenovo",
+      "categoryId": 2,
+      "description": "Latest 15.6\" business laptop powered by Intel®\nNVIDIA® graphics option with tons of storage\nBuilt-in time-saving features including a number pad",
+      "productImg": "https://images.firstpost.com/wp-content/uploads/2018/05/lenovo-laptop-lenovo-v330-15-hero.png",
+      "price": "300",
+      "isAvailable": "true",
+      "rating": "",
+      "reviews": "",
+      "color": "grey"
+    },
+    {
+      "id": 74,
+      "name": "JBL E55BT",
+      "categoryId": 5,
+      "description": "JBL LIVE 650BTNC - Around-Ear Wireless Headphone with Noise Cancellation - Black",
+      "productImg": "https://brain-images-ssl.cdn.dixons.com/2/9/10171292/u_10171292.jpg",
+      "price": "75",
+      "isAvailable": "true",
+      "rating": "",
+      "reviews": "",
+      "color": "black"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Televisions"
+    },
+    {
+      "id": 2,
+      "name": "Laptops"
+    },
+    {
+      "id": 3,
+      "name": "Mobile Phones"
+    },
+    {
+      "id": 4,
+      "name": "Music players"
+    },
+    { 
+      "id": 5,
+      "name": "Headphones"
+    }
+  ],
+  "orders": [
+    {
+      "id": 2,
+      "name": "MIXCDER",
+      "orderNo": "2020FEEE10",
+      "description": "MIXCDER Noise Cancelling Headphones WHCH710N: Wireless Bluetooth Over the Ear Headset with Mic for Phone-Call, Black",
+      "productImg": "http://localhost:4200/assets/headphones/hd-1.jpg",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Acer",
+      "orderNo": "2020FGEE12",
+      "description": "Chrome OS ,Intel® Celeron® N4000 processor Dual-core 1.10 GHz ,Intel® UHD Graphics 600 shared memory ,11.6 HD (1366 x 768) 16:9 IPS, 4 GB, LPDDR4 32 GB Flash Memory",
+      "productImg": "http://localhost:4200/assets/laptopsImages/acer-1.png",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "Acer",
+      "orderNo": "2020GEEE10",
+      "description": "Chrome OS ,Intel® Celeron® N4000 processor Dual-core 1.10 GHz ,Intel® UHD Graphics 600 shared memory ,11.6 HD (1366 x 768) 16:9 IPS, 8 GB, LPDDR4 32 GB Flash Memory",
+      "productImg": "http://localhost:4200/assets/laptopsImages/acer-2.jpeg",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "Toshiba",
+      "orderNo": "2020GGEE10",
+      "description": "Dynabook Toshiba Tecra A50-F 15.6 ,FHD Business Laptop Computer/ Intel Quad-Core i7-8565U up to 4.6GHz/ 8GB DDR4 RAM/ 256GB SSD/ DVDRW/ AC WiFi/ Bluetooth/ Windows 10 Professional",
+      "productImg": "http://localhost:4200/assets/laptopsImages/toshiba-.jpg",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "Toshiba",
+      "orderNo": "2020FIEE12",
+      "description": "Dynabook Toshiba Tecra A50-F 15.6 ,FHD Business Laptop Computer/ Intel Quad-Core i7-8565U up to 4.6GHz/ 8GB DDR4 RAM/ 256GB SSD/ DVDRW/ AC WiFi/ Bluetooth/ Windows 10 Professional",
+      "productImg": "http://localhost:4200/assets/laptopsImages/toshiba-2.jpg",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "name": "Samsung",
+      "orderNo": "2020FEFE19",
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-2.png",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "name": "LG",
+      "orderNo": "2020FEEH11",
+      "description": "Z9G | MASTER Series | LED | 8K | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-3.jpg",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "name": "Samsung",
+      "orderNo": "2020FEHH10",
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-4.jpg",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "name": "Skyworth",
+      "orderNo": "2020FELL10",
+      "description": "X800H | LED | 3K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-5.jpg",
+      "color": "grey",
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "name": "Samsung",
+      "orderNo": "2020FEEE10",
+      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
+      "productImg": "http://localhost:4200/assets/tvsImages/tv-6.jpg",
+      "color": "grey",
+      "quantity": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

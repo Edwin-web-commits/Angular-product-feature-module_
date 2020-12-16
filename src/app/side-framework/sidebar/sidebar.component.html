@@ -1,0 +1,20 @@
+<!-- <h1 class="my-4">Shop Name</h1> -->
+
+    <div class="list-group" >
+          
+      <!-- <a href="products" class="list-group-item bg-dark" style="color: white;">View All Products</a>  -->
+     <a style="cursor: pointer;" routerLink='/products' class="list-group-item bg-dark" style="color: white;">View All Products</a> 
+  
+    </div>
+    <div class="list-group" style="margin-top: 5px;">
+          
+      <!-- <a href="products" class="list-group-item bg-dark" style="color: white;">View All Products</a>  -->
+     <a style="cursor: pointer;" routerLink='/products/create-product' class="list-group-item bg-dark" style="color: white;">Add New Product</a> 
+  
+    </div>
+    <div class="list-group " *ngFor="let cat of categoryList" >
+          
+      <a class="list-group-item bg-dark" style="color: white; margin-top: 5px;" routerLink="products/category/{{cat.id}}" >{{cat.name}}</a>
+          
+    </div>
+

@@ -1,0 +1,42 @@
+
+
+1. Angular encourages and supports modular appproach of apps
+2. Two different appproaches
+  2.1 Generating modules -> Orders.
+  2.2 Generating modules via lazy loading -> Products
+3. Generating Modules  
+   3.1 run the command 
+       ng g m <module-name>
+   3.2 Then navigate inside the orders module
+       ng g c list-orders    (generating the list-orders component inside Orders module)
+   3.3 To use this Orders module, we need to import it in the App module
+       -then add the module into the Imports array of App module
+ 4. Generating Module using Lazy loading      
+     ng g m products --route products --module app.module
+
+ 5. We are going to update the products feature module's routing file
+     All the routes we need in our feature module
+     5.1 create-product -> adding new product (CREATE)
+     5.2 list-products ->list of all products (READ)
+     5.3 search?category ->list products by category (READ)
+     5.4 search?date -> list products by date (READ)
+     5.5 delete-product -> delete the product (DELETE)
+     5.6 view-product/id -> view a specific product (READ)  
+     5.7 update-product/id ->update a specific product (UPDATE)
+
+CREATE
+Important things to remember when creating a form template
+ 1.Give the form a name using "template ref" -we define it using #
+   #f="ngForm"
+ 2.Give all the fields attribute name and ngModel
+    -this is one way data binding
+ 3. on submit event -> (ngSubmit)="addNewProductForm(f)"
+ 4.always remember to import FormsModule   
+
+ UPDATE
+ 1. FIRST  we will capture the product Id of the selected product
+ 2. we will read the existing data of the product
+ 3. We will use tow way data binding to map the fields on the screen
+ 4.We do a PUT method call to update the product
+
+C:\Users\Edwin Motlokwa\Desktop\ANGULAR\crud-app\src\assets\data\db.json

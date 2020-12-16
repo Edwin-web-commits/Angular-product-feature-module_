@@ -1,0 +1,35 @@
+<div class="card mt-0">
+    <img class="card-img-top img-fluid" src="{{selectedProduct.productImg}}" alt="" >
+    <div class="card-body">
+      <h3 class="card-title">Item: {{selectedProduct.name}}</h3>
+      <h4>Price:  ${{selectedProduct.price}}</h4>
+      <h5 class="card-text">Description: {{selectedProduct.description}}</h5>
+      <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+      4.0 stars
+    </div>
+    <div class="btns">
+      <button class="btn btn-success" (click)="updateItem()" style="margin-right: 5px;">EDIT & UPDATE ITEM</button>
+      <button class="btn btn-danger" (click)="deleteItem()">DELETE THIS ITEM</button>
+    </div>
+   
+  </div>
+  <!-- /.card -->
+
+  <!-- <div class="card card-outline-secondary my-4">
+    <div class="card-header">
+      Product Reviews
+    </div>
+    <div class="card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+   
+    </div>
+  </div> -->
+  <!-- /.card -->
