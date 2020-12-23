@@ -7,6 +7,9 @@ import {OrdersModule} from './orders/orders.module';
 import {SideFrameworkModule } from './side-framework/side-framework.module';
 
 import { HttpClientModule } from '@angular/common/http'
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { HttpClientModule } from '@angular/common/http'
     AppRoutingModule,
     OrdersModule,
     HttpClientModule,
-    SideFrameworkModule
+    SideFrameworkModule,
+    StoreModule.forRoot({}),
+    StoreDevtoolsModule.instrument(),
+    EffectsModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]

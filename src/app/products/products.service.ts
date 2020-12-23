@@ -21,16 +21,16 @@ export class ProductsService {
    
     return this.httpClient.get<Product>(productUrl); //will return an observable of type Product
   }
-  viewAllProducts():Observable<Product>{
+  viewAllProducts():Observable<Product[]>{
   const productUrl='http://localhost:3000/products';
  
-    return this.httpClient.get<Product>(productUrl); //will return an observable of type Product
+    return this.httpClient.get<Product[]>(productUrl); //will return an observable of type Product
   }
 
-  updateProduct(productId,productBody):Observable<Product> {
-    const productUrl="http://localhost:3000/products/"+productId;
+  updateProduct(product: Product):Observable<Product> {
+    const productUrl="http://localhost:3000/products/"+product.id;
 
-   return this.httpClient.put<Product>(productUrl,productBody);//will return an observable of type Product
+   return this.httpClient.put<Product>(productUrl,product);//will return an observable of type Product
   }
   deleteProduct(productId):Observable<Product> {
    const productUrl="http://localhost:3000/products/"+productId;

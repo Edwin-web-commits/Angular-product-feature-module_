@@ -11,6 +11,11 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 import { ViewAllProductsByDateComponent } from './view-all-products-by-date/view-all-products-by-date.component';
 import { ViewAllProductsByCategoryComponent } from './view-all-products-by-category/view-all-products-by-category.component';
 import { FormsModule } from '@angular/forms';
+import { StoreModule } from '@ngrx/store';
+
+import {productReducer} from './store/product.reducer';
+import { EffectsModule } from '@ngrx/effects';
+import {productEffect} from './store/product.effects';
 
 
 @NgModule({
@@ -18,7 +23,10 @@ import { FormsModule } from '@angular/forms';
   imports: [
     FormsModule,
     CommonModule,
-    ProductsRoutingModule
+    ProductsRoutingModule,
+    StoreModule.forFeature("products" , productReducer),
+    EffectsModule.forFeature([productEffect])
+
   ]
 })
 export class ProductsModule { }

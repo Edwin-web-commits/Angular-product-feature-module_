@@ -11,7 +11,7 @@ export interface Product {
     // color:string;
     // reviews:number;
 
-    id: string;
+    id: number;
     name: string;
     categoryId: number; 
     description: string;

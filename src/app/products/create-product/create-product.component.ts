@@ -2,6 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ProductsService } from '../products.service';
 
+import {Store} from "@ngrx/store";
+
+import * as productActions from "../store/product.actions";
+import * as fromProduct from "../store/product.reducer";
+
+
+
 @Component({
   selector: 'app-create-product',
   templateUrl: './create-product.component.html',
@@ -10,7 +17,7 @@ import { ProductsService } from '../products.service';
 export class CreateProductComponent implements OnInit {
 
    genId=Math.floor(Math.random() * 100) + 1;
-  constructor(private producstService:ProductsService) { }
+  constructor(private producstService:ProductsService , private store: Store<fromProduct.AppState>) { }
 
   ngOnInit(): void {
   }
@@ -29,9 +36,17 @@ export class CreateProductComponent implements OnInit {
     color: form.value.product_color
    };
    console.log(newProduct);
-   this.producstService.createProduct(newProduct).subscribe(data=>{
+  /* this.producstService.createProduct(newProduct).subscribe(data=>{
      console.log(data);
    })
+
+   */
+   
+   this.store.dispatch( new productActions.createProduct(newProduct));
+   
+   
+
   }
+  
 
 }
