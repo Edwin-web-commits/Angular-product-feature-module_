@@ -12,7 +12,7 @@ import { map, mergeMap, catchError } from "rxjs/operators";
 import {Product} from "../product";
 
 
-Injectable()
+ @Injectable()
 export class productEffect {
 
     constructor(private productService:ProductsService, private actions$: Actions){}

@@ -11,10 +11,10 @@ export class OrdersService {
 
   constructor(private http:HttpClient) { }
 
-  getOrders():Observable<Order>{
+  getOrders():Observable<Order[]>{
     const productUrl='http://localhost:3000/orders';
  
-    return this.http.get<Order>(productUrl); //will return an observable of type Order
+    return this.http.get<Order[]>(productUrl); //will return an observable of type Order
   }
   viewOrder(orderId):Observable<Order> {
     const productUrl="http://localhost:3000/orders/"+orderId;

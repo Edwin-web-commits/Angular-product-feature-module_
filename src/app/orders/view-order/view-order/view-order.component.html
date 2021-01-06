@@ -1,16 +1,22 @@
-<h2>Order: {{order.orderNo}}</h2><hr>
+<h2>Order: {{orderNo}}</h2><hr>
 
 <div class="card mt-0" >
-     <img class="card-img-top img-fluid" src="{{order.productImg}}" alt="" > 
+     <img class="card-img-top img-fluid" src="{{orderDescription}}" alt="" > 
     <div class="card-body">
-      <h3 class="card-title">Item: {{order.name}}</h3>
-      <h6>OrderNo: {{order.orderNo}}</h6>
-      <h3 class="card-text">Description: {{order.description}}</h3>
-      <h6 class="card-text">Color: {{order.color}}</h6>
-      <h6 class="card-text">Quantity: {{order.quantity}}</h6>
+      <h3 class="card-title">Item: {{orderName}}</h3>
+      <h6>OrderNo: {{orderNo}}</h6>
+      <h3 class="card-text">Description: {{orderDescription}}</h3>
+      <h6 class="card-text">Color: {{orderColor}}</h6>
+      <h6 class="card-text">Quantity: {{orderQuantity}}</h6>
     </div>
     <div class="btns">
       <button class="btn btn-danger" (click)="deleteOrder()">DELETE THIS ORDER</button>
     </div>
    
   </div>
+
+  
+  
+  
+
+  

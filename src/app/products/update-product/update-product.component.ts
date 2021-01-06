@@ -72,14 +72,17 @@ export class UpdateProductComponent implements OnInit {
       //productImg: this.productDetails.productImg,
       productImg:this.productImage,
       price:form.value.product_price,
-     isAvailable:form.value.product_availability,
+      isAvailable:form.value.product_availability,
       rating: form.value.product_rating,
       reviews: form.value.product_reviews,
       color: form.value.product_color,
 
 
      };
-    
+     this.store.dispatch(new productActions.updateProduct(newProduct))
+     
+     
+     this.router.navigate(['/products/product/'+this.productId]);
      /*
     this.productsService.updateProduct(this.productId,newProduct).subscribe(data=>{
       console.log("updated data");
@@ -88,8 +91,7 @@ export class UpdateProductComponent implements OnInit {
       this.router.navigate(['/products/product/'+this.productId]);
     })
     */
-   this.store.dispatch(new productActions.updateProduct(newProduct))
-   this.router.navigate(['/products/product/'+this.productId]);
+   
   }
 
 }

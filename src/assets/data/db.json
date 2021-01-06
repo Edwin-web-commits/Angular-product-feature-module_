@@ -6,10 +6,10 @@
       "categoryId": 2,
       "description": "Windows 10 Pro 64,8th Generation Intel® Core™ i5 processor,8 GB memory; 256 GB SSD storage, 14 diagonal Full HD display",
       "productImg": "http://localhost:4200/assets/laptopsImages/hp3.jpg",
-      "price": 130,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 120,
+      "price": "131",
+      "isAvailable": "true",
+      "rating": "3",
+      "reviews": "1 review",
       "color": "blue"
     },
     {
@@ -18,10 +18,10 @@
       "categoryId": 2,
       "description": "Windows 10 Pro 64,8th Generation Intel® Core™ i3 processor,8 GB memory; 256 GB SSD storage, 14 diagonal Full HD display",
       "productImg": "http://localhost:4200/assets/laptopsImages/Hp1.jpg",
-      "price": 110,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 120,
+      "price": "111",
+      "isAvailable": "true",
+      "rating": "2",
+      "reviews": "1 review",
       "color": "grey"
     },
     {
@@ -90,10 +90,10 @@
       "categoryId": 1,
       "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
       "productImg": "http://localhost:4200/assets/tvsImages/tv-2.png",
-      "price": 160,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 130,
+      "price": "195",
+      "isAvailable": "true",
+      "rating": "3",
+      "reviews": "1 review",
       "color": "grey"
     },
     {
@@ -151,18 +151,6 @@
       "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
       "productImg": "http://localhost:4200/assets/tvsImages/tv-6.jpg",
       "price": 300,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 130,
-      "color": "grey"
-    },
-    {
-      "id": 15,
-      "name": "LG",
-      "categoryId": 1,
-      "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
-      "productImg": "http://localhost:4200/assets/tvsImages/tv-7.jpg",
-      "price": 320,
       "isAvailable": true,
       "rating": 4,
       "reviews": 130,
@@ -271,21 +259,9 @@
       "description": "CA-Z1 Hi-Res Near Field Powered Speaker System Signature Series",
       "productImg": "http://localhost:4200/assets/speakersImg/sp-3.jpg",
       "price": 119,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 130,
-      "color": "grey"
-    },
-    {
-      "id": 27,
-      "name": "GBL",
-      "categoryId": 4,
-      "description": "JBL Professional 305P MkII Next-Generation 5-Inch 2-Way Powered Studio Monitor",
-      "productImg": "http://localhost:4200/assets/speakersImg/sp-4.jpg",
-      "price": 119,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 130,
+      "isAvailable": "true",
+      "rating": "3",
+      "reviews": "1 review",
       "color": "grey"
     },
     {
@@ -307,21 +283,21 @@
       "description": "Creative Labs 51MF1610AA002 GigaWorks T20 Series II 3.0 Multimedia Speaker System with BasXPort Technology",
       "productImg": "http://localhost:4200/assets/speakersImg/sp-6.jpg",
       "price": 119,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 130,
-      "color": "grey"
+      "isAvailable": "true",
+      "rating": "2",
+      "reviews": "1 review",
+      "color": "light-grey"
     },
     {
       "id": 30,
-      "name": "BLASTER",
+      "name": "BLASTERS",
       "categoryId": 4,
       "description": "Blaster Labs 51MF1610AA002 GigaWorks T20 Series II 3.0 Multimedia Speaker System with BasXPort Technology",
       "productImg": "http://localhost:4200/assets/speakersImg/sp-7.jpg",
       "price": 119,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 130,
+      "isAvailable": "true",
+      "rating": "3",
+      "reviews": "1 review",
       "color": "grey"
     },
     {
@@ -330,10 +306,10 @@
       "categoryId": 4,
       "description": "Creative Labs 51MF1610AA002 GigaWorks T20 Series II 3.0 Multimedia Speaker System with BasXPort Technology",
       "productImg": "http://localhost:4200/assets/speakersImg/sp-8.jpg",
-      "price": 119,
-      "isAvailable": true,
-      "rating": 4,
-      "reviews": 130,
+      "price": "200",
+      "isAvailable": "true",
+      "rating": "3",
+      "reviews": "2 reviews",
       "color": "grey"
     },
     {
@@ -383,6 +359,18 @@
       "rating": "",
       "reviews": "",
       "color": "black"
+    },
+    {
+      "id": 88,
+      "name": "Acerr",
+      "categoryId": 2,
+      "description": "Acer 315 15.6\" Celeron 4GB/32GB Chromebook, 15.6\" HD Display, Intel Celeron N4000, 4GB LPDDR4, 32GB eMMC, Protective Sleeve, Chrome OS - CB315-3H-C2C3",
+      "productImg": "https://betanews.com/wp-content/uploads/2014/11/front.jpg",
+      "price": "240",
+      "isAvailable": "true",
+      "rating": "2",
+      "reviews": "4 reviews",
+      "color": "black"
     }
   ],
   "categories": [
@@ -402,7 +390,7 @@
       "id": 4,
       "name": "Music players"
     },
-    { 
+    {
       "id": 5,
       "name": "Headphones"
     }
@@ -459,15 +447,6 @@
       "orderNo": "2020FEFE19",
       "description": "X800H | LED | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Android TV)",
       "productImg": "http://localhost:4200/assets/tvsImages/tv-2.png",
-      "color": "grey",
-      "quantity": 1
-    },
-    {
-      "id": 8,
-      "name": "LG",
-      "orderNo": "2020FEEH11",
-      "description": "Z9G | MASTER Series | LED | 8K | High Dynamic Range (HDR) | Smart TV (Android TV)",
-      "productImg": "http://localhost:4200/assets/tvsImages/tv-3.jpg",
       "color": "grey",
       "quantity": 1
     },

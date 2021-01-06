@@ -22,15 +22,26 @@ export class ViewProductComponent implements OnInit {
   selectedProduct$ :Observable<Product> ; 
   error$: Observable<String> ;
 
-  pname="";
+  /*pname="";
   pcategoryId=0; 
-  pdescription="";
+  pdescription="ha";
   productImage="";
   pprice=0;
   pisAvailable=false;
   prating="";
   previews=0;
   pcolor="";
+  */
+
+  pname:string;
+  pcategoryId:number; 
+  pdescription:string;
+  productImage:string;
+  pprice:number;
+  pisAvailable:boolean;
+  prating:string;
+  previews:number;
+  pcolor:string;
 
   constructor(private router:Router,private activatedRoute:ActivatedRoute, private productsService:ProductsService, private store: Store<fromProduct.AppState>) { }
 
@@ -48,11 +59,12 @@ export class ViewProductComponent implements OnInit {
       })
       */
 
-     this.store.dispatch(new productActions.loadProduct(this.productId));
+        this.store.dispatch(new productActions.loadProduct(this.productId));
 
     
-       this.selectedProduct$= this.store.pipe(select(fromProduct.getCurrentProduct));
-       this.selectedProduct$.subscribe(data=>{
+        this.selectedProduct$= this.store.pipe(select(fromProduct.getCurrentProduct));
+
+        this.selectedProduct$.subscribe(data=>{
         this.productImage=data.productImg;
         this.pname=data.name;
         this.previews=data.reviews;
